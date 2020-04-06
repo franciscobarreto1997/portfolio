@@ -4,11 +4,11 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 50px;
+  padding: 3vw;
 
   .navigation-items {
     display: flex;
-    width: 20%;
+    width: 300px;
     justify-content: space-between;
     font-size: 17px;
   }
@@ -22,5 +22,34 @@
     &:hover {
       border-bottom: 1px solid black;
     }
+  }
+
+  .burguer-menu {
+    display: none;
+
+    i {
+      font-size: 36px;
+    }
+  }
+}
+
+@media (max-width: 812px) {
+
+  .navbar {
+      padding: 5vw;
+
+    .navigation-items {
+      display: none !important;
+    }
+
+    .burguer-menu {
+      display: flex !important;
+    }
+  }
+}
+
+@media (max-width: 550px) {
+  .name h2 {
+    font-size: 20px;
   }
 }
