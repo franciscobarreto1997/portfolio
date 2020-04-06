@@ -18,12 +18,29 @@
     padding-bottom: 23.25%;
     display: block;
     background-color: #40AEDF;
+    transition: .5s all;
   }
 
   .madwork {
     background: url('madwork_4_by_3_bigger.png');
     background-size: cover;
   }
+}
+
+.hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+}
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+    transform: scale(1.1);
 }
 
 @media (max-width: 812px) {
