@@ -1,1 +1,27 @@
-// Specific CSS for your home-page
+.projects-container {
+  background-color: white;
+  padding: 9vh 3vw;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+
+  .card {
+    // height: 500px;
+    // width: 500px;
+    border: none;
+    // padding: 5px;
+    margin-bottom: 30px;
+    background-color: red;
+    height: 0;
+    width: 31%;
+    padding-bottom: 32%;
+
+    .image {
+      width: 100%;
+      height: 100%;
+      background-color: black;
+    }
+  }
+}
