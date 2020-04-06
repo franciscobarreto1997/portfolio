@@ -10,5 +10,17 @@
     display: flex;
     width: 20%;
     justify-content: space-between;
+    font-size: 17px;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px solid transparent;
+    transition: 0.5s all;
+
+    &:hover {
+      border-bottom: 1px solid black;
+    }
   }
 }
