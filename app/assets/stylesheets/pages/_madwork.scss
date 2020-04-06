@@ -7,9 +7,18 @@
     justify-content: center;
     align-items: center;
     padding: 9vh 12vw;
+
+    a {
+      text-decoration: none;
+      color: white;
+      background-color: black;
+      padding: 10px 40px;
+      border-radius: 5px;
+      font-size: 20px;
+    }
   }
 
-  .first-picture {
+  .picture {
     padding: 9vh 12vw;
     background-color: white;
     display: flex;
@@ -23,10 +32,6 @@
       -webkit-box-shadow: 10px 7px 20px -11px rgba(0,0,0,0.75);
       -moz-box-shadow: 10px 7px 20px -11px rgba(0,0,0,0.75);
       box-shadow: 10px 7px 20px -11px rgba(0,0,0,0.75);
-    }
-
-    p {
-      margin-top: 20px;
     }
   }
 }
