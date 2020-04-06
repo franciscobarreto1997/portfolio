@@ -51,3 +51,15 @@
     }
   }
 }
+
+@media (max-width: 500px) {
+  .project-container {
+
+    .description {
+      padding: 1vh 3vw;
+    }
+    .picture-container {
+      padding: 9vh 3vw;
+    }
+  }
+}
