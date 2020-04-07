@@ -28,9 +28,7 @@ const insertMobileMenu = () => {
         burguerMenu.classList.remove('open');
         menuOpen = false;
         mobileMenu.classList.add('opacity');
-        setTimeout(() => {
-          mobileMenu.setAttribute('hidden', '');
-        }, 250)
+        mobileMenu.setAttribute('hidden', '');
         mobileMenu.innerHTML = "";
         disableScroll.off();
       }
