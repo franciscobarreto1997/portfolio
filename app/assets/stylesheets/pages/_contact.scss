@@ -1,0 +1,17 @@
+.contact-container {
+  background-color: white;
+  .contact-row {
+    width: 100%;
+    padding: 9vh 8vw;
+    display: flex;
+    .left {
+      width: 70%;
+      text-align: left;
+      padding: 4vh 4vw;
+    }
+
+    .right {
+      padding: 4vh 4vw;
+    }
+  }
+}
