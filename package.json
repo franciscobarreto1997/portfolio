@@ -10,7 +10,7 @@
     "bootstrap": "^4.4.1",
     "disable-scroll": "^0.5.1",
     "hover.css": "^2.3.2",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "popper.js": "^1.16.1",
     "turbolinks": "^5.2.0"
   },
